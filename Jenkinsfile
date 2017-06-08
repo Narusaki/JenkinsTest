@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo Hello, world!
+                python helloworld.py
             }
         }
     }
